@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>$title · 双语精读</title>
+<style>$style</style>
+</head>
+<body id="top">
+<a class="skip" href="#reading">跳到论文正文</a>
+<div class="top"><div class="top-inner">
+<a class="brand" href="#top">$title_short</a>
+<div class="controls">
+<button type="button" id="notes-mode" aria-pressed="false">只看笔记</button>
+<button type="button" id="mark-mode" aria-pressed="true">重点高亮</button>
+$pdf_link
+</div></div></div>
+<div class="shell">
+<nav class="toc" aria-label="章节目录"><h2>章节目录</h2>$nav</nav>
+<main id="reading">
+<header class="hero">
+<h1>$title</h1>
+<p class="title-en" lang="en">$title_en</p>
+$byline
+$sources
+$route
+</header>
+<details class="mobile-toc"><summary>章节目录</summary>$nav</details>
+$content
+<footer class="end-meta">英文按原版阅读顺序重排。中文译文、阅读笔记及排版为本版新增。<br><a href="#top">返回顶部</a></footer>
+</main></div>
+<script>$script</script>
+</body></html>

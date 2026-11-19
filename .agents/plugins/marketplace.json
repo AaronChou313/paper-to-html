@@ -1,0 +1,20 @@
+{
+  "name": "paper-to-html",
+  "interface": {
+    "displayName": "论文 → HTML"
+  },
+  "plugins": [
+    {
+      "name": "paper-to-html",
+      "source": {
+        "source": "local",
+        "path": "./plugins/paper-to-html"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

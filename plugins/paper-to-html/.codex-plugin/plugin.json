@@ -1,0 +1,22 @@
+{
+  "name": "paper-to-html",
+  "version": "1.0.0",
+  "description": "把论文整理为统一版式的中英逐段对照精读 HTML。",
+  "repository": "https://github.com/AaronChou313/paper-to-html",
+  "homepage": "https://github.com/AaronChou313/paper-to-html",
+  "author": {
+    "name": "AaronChou313"
+  },
+  "skills": "./skills",
+  "interface": {
+    "displayName": "论文 → HTML",
+    "shortDescription": "论文双语对照与逐段笔记",
+    "longDescription": "将英文论文按原顺序整理为可离线阅读的单个 HTML。英文原文与中文翻译上下对照，旁边是短笔记，保留图表、页码与参考文献。",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "把我指定的论文整理成双语精读 HTML，左侧英文原文和中文译文，右侧逐段阅读笔记，沿用插件自带样式。",
+    "developerName": "AaronChou313"
+  }
+}
